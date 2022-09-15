@@ -3,3 +3,62 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.display-flex{
+  display: flex;
+  align-items: center;
+}
+
+ul{
+  list-style: none;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0px 1px 5px grey;
+  z-index: 999;
+}
+
+header a{
+  text-decoration: none;
+  color: grey;
+  padding: auto 10px;
+  font-size: .8rem;
+}
+
+header img{
+  height: 20px;
+  line-height: 50px;
+  margin: auto;
+  padding-left: 10px;
+}
+
+header ul li{
+  padding: 0 10px;
+  line-height: 50px;
+}
+
+header button{
+  padding: 5px 10px;
+  background-color: #063FE8;
+  color: white;
+  border: 0;
+  font-size: .8rem;
+  margin: 0 10px;
+}
+
+header button:hover{
+  background-color: #3c66e3;
+}
+
+header ul li:hover{
+  border-bottom: 2px solid #063FE8;
+}
