@@ -405,7 +405,7 @@ section.second{
 .full-width .big-square .small-square-box{
   width: calc(100% / 2);
   position: relative;
-  overflow: scroll;
+  overflow: hidden;
   float: left;
 }
 
