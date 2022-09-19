@@ -392,6 +392,7 @@ section.second{
 .full-width{
   display: flex;
   justify-content: center;
+  min-height: 426px;
 }
 
 .full-width .big-square{
@@ -403,9 +404,8 @@ section.second{
 
 .full-width .big-square .small-square-box{
   width: calc(100% / 2);
-  border: 1px solid black;
   position: relative;
-  overflow: hidden;
+  overflow: scroll;
   float: left;
 }
 
@@ -438,8 +438,45 @@ section.second{
   overflow: hidden;
 }
 
+.big-square-content{
+  padding: 30px;
+}
+
+.big-square-content img{
+  width: 200px;
+  margin-bottom: 50px;
+}
+
 .big-square .small-square-box.designit{
   background-color: #92CC89;
+}
+
+.big-square .small-square-box.asu{
+  background-color: #4D0020;
+}
+
+.big-square .small-square-box.florida{
+  background-color: #107FC3;
+}
+
+.big-square .small-square-box.topps{
+  background-color: #FB0017;
+}
+
+.big-square .small-square-box.bicycle{
+  background-color: #C80018;
+}
+
+.big-square .small-square-box.hearst{
+  background-color: #A6C5E1;
+}
+
+.big-square .small-square-box.lonely{
+  background-color: #0C156E;
+}
+
+.big-square .small-square-box.clear{
+  background-color: #FED125;
 }
 
 .fourth{
