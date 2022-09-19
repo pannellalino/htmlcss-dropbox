@@ -15,7 +15,7 @@
 
 .button-style{
   background-color: #0544FF;
-  padding: 5px 10px;
+  padding: 10px 15px;
   color: white;
   border: 0;
 }
@@ -46,7 +46,7 @@ header{
 
 header a{
   text-decoration: none;
-  color: grey;
+  color: black;
   padding: auto 10px;
   font-size: .8rem;
 }
@@ -132,4 +132,197 @@ h1{
 
 .jumbotron .fa-solid:active{
   color: red;
+}
+
+.container-main{
+  width: 60%;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+section.first{
+  margin-bottom: 100px;
+}
+
+.first .row{
+  display: flex;
+}
+
+.first .col{
+  margin: 30px 0 0 0;
+  width: calc(100% / 3);
+  padding-right: 20px;
+  height: 648px;
+}
+
+.first .col-2{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.first .col-3{
+  padding-right: 0;
+  padding-left: 20px;
+}
+
+.first .col .cards{
+  border: 1px solid black;
+  font-size: .8rem;
+  height: 100%;
+}
+
+.first .col .cards .card-top{
+  border-bottom: 1px solid black;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.first h2{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.first .circle{
+  margin-right: 10px;
+}
+
+.first .fa-solid, .fa-regular{
+  font-size: .8rem;
+}
+
+.first .fa-solid{
+  color: #0544FF;
+}
+
+.first .col .cards .user::before{
+  font-family: FontAwesome;
+  content: "\f007";
+  padding: 0 5px;
+  font-size: .8rem;
+}
+
+.first .col .cards .folder::before{
+  font-family: FontAwesome;
+  content: "\f07b";
+  padding: 0 5px;
+  font-size: .8rem;
+}
+
+.first .col .cards .share::before{
+  font-family: FontAwesome;
+  content: "\f1e0";
+  padding: 0 5px;
+  font-size: .8rem;
+}
+
+.first .col .cards .team::before{
+  font-family: FontAwesome;
+  content: "\f500";
+  padding: 0 5px;
+  font-size: .8rem;
+}
+
+.first .col .cards .agency::before{
+  font-family: FontAwesome;
+  content: "\f1ad";
+  padding: 0 5px;
+  font-size: .8rem;
+}
+
+.first .col .cards .check::before{
+  font-family: FontAwesome;
+  content: "\f00c";
+  padding: 0 5px;
+  font-size: .8rem;
+  color: #0544FF;
+}
+
+.first h3, .price, .card-text, h4{
+  margin-bottom: 10px;
+}
+
+main .first ul li{
+  margin-bottom: 10px;
+  padding: 2px 0;
+}
+
+.first .card-text{
+  margin-bottom: 30px;
+}
+
+.first .col .cards .card-main{
+  padding: 20px 10px;
+}
+
+.card-main button{
+  margin: 20px 0;
+  width: 100%;
+}
+.first .card-main .link-buy{
+  display: inline-block;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.first .row-2 .large{
+  padding: 0;
+  width: 100%;
+  margin-bottom: 30px;
+  height: auto;
+}
+
+.box-large-left{
+  width: 70%;
+  padding-right: 20px;
+}
+
+.box-large-right{
+  width: 30%;
+  padding: 0 10px;
+}
+
+.row-2 .large .card-main{
+  display: flex;
+}
+
+.row-2 .large .card-main button{
+  margin: 0;
+}
+
+.row-2 .large .card-main p{
+  margin-top: 30px;
+}
+
+.second{
+  display: flex;
+}
+
+.second .left{
+  width: 70%;
+  padding-right: 30px;
+}
+
+.second .left img{
+  width: 100%;
+}
+
+.second .right{
+  width: 30%;
+}
+
+.second .right h3{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+section.second{
+  margin-bottom: 100px;
+}
+
+section .second .alternative-button{
+  padding: 5px 10px;
+  color: black;
+  background-color: transparent;
 }
