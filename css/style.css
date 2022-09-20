@@ -453,6 +453,10 @@ section.second{
   background-color: #FED125;
 }
 
+.small-square-box:active{
+  border: 10px solid rgba(255, 255, 255 );
+}
+
 .fourth{
   background-color: #A6C5E1;
 }
